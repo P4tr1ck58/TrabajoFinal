@@ -3,17 +3,16 @@ using System.Collections.Generic;
 
 namespace PracticaCampoFinal.Models;
 
-public partial class Cliente
+public class Cliente
 {
-    public int IdCliente { get; set; }
+    public int Id_Cliente { get; set; }
 
-    public string NameCliente { get; set; } = null!;
+    public string Name_Cliente { get; set; } = string.Empty;
 
-    public string? ApeCliente { get; set; }
+    public string? Ape_Cliente { get; set; }
 
-    public string TelefonoCliente { get; set; } = null!;
+    public string Telefono_Cliente { get; set; } = string.Empty;
 
-    public string? EmailCliente { get; set; }
+    public string? Email_Cliente { get; set; }
 
-    public virtual ICollection<Pedido> Pedidos { get; set; } = new List<Pedido>();
 }

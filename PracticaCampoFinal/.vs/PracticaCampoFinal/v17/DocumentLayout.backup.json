@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\controllers\\clientecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:controllers\\clientecontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClienteControlador.cs",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Controllers\\ClienteControlador.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteControlador.cs",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Controllers\\ClienteControlador.cs",
-              "RelativeToolTip": "Controllers\\ClienteControlador.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:20:41.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "Models\\Cliente.cs",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Cliente.cs",
-              "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:10:19.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:07:23.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T07:38:12.793Z",
+              "WhenOpened": "2025-05-01T08:12:21.288Z",
               "EditorCaption": ""
             }
           ]

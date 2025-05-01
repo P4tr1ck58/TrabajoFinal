@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnection"),
-    new MySqlServerVersion(new Version(9, 3, 0))));
+    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("MySqlConnection"))));
 
 var app = builder.Build();
 

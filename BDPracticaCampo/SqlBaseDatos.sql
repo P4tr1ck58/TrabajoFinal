@@ -41,3 +41,8 @@ PrecioUnit_Pedido decimal(10,2) not null,
 foreign key (Id_Pedido) references Pedidos (Id_Pedido),
 foreign key (Id_Producto) references Productos (Id_Producto)
 )
+select*from usuarios;
+select*from clientes;
+select*from productos;
+select*from pedidos;
+select*from pedidosdetalles;

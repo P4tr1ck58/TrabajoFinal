@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 namespace PracticaCampoFinal.Models;
 
-public partial class Pedido
+public class Pedido
 {
-    public int IdPedido { get; set; }
+    public int Id_Pedido { get; set; }
 
-    public int IdCliente { get; set; }
+    public int Id_Cliente { get; set; }
 
-    public DateTime? FechaPedido { get; set; }
+    public DateTime Fecha_Pedido { get; set; } = DateTime.Now;
 
-    public string? EstadoPedido { get; set; }
+    public string? Estado_Pedido { get; set; }
 
-    public virtual Cliente IdClienteNavigation { get; set; } = null!;
+    public Cliente? Cliente { get; set; }
 
-    public virtual ICollection<Pedidosdetalle> Pedidosdetalles { get; set; } = new List<Pedidosdetalle>();
+    public ICollection<Pedidosdetalle>? Pedidosdetalles { get; set; }
 }

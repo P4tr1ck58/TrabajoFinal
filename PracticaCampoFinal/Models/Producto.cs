@@ -3,17 +3,17 @@ using System.Collections.Generic;
 
 namespace PracticaCampoFinal.Models;
 
-public partial class Producto
+public class Producto
 {
-    public int IdProducto { get; set; }
+    public int Id_Producto { get; set; }
 
-    public string NameProducto { get; set; } = null!;
+    public string Name_Producto { get; set; } = string.Empty;
 
-    public string? DescripcionProducto { get; set; }
+    public string? Descripcion_Producto { get; set; }
 
-    public int CantidadProducto { get; set; }
+    public int Cantidad_Producto { get; set; }
 
-    public decimal PrecioProducto { get; set; }
+    public decimal Precio_Producto { get; set; }
 
-    public virtual ICollection<Pedidosdetalle> Pedidosdetalles { get; set; } = new List<Pedidosdetalle>();
+    public ICollection<Pedidosdetalle>? Pedidosdetalles { get; set; }
 }

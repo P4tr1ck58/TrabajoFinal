@@ -3,19 +3,19 @@ using System.Collections.Generic;
 
 namespace PracticaCampoFinal.Models;
 
-public partial class Pedidosdetalle
+public class Pedidosdetalle
 {
-    public int IdPedidoDetalle { get; set; }
+    public int Id_PedidoDetalle { get; set; }
 
-    public int IdPedido { get; set; }
+    public int Id_Pedido { get; set; }
 
-    public int IdProducto { get; set; }
+    public int Id_Producto { get; set; }
 
-    public int CantidadPedidoDetalle { get; set; }
+    public int Cantidad_PedidoDetalle { get; set; }
 
-    public decimal PrecioUnitPedido { get; set; }
+    public decimal PrecioUnit_Pedido { get; set; }
 
-    public virtual Pedido IdPedidoNavigation { get; set; } = null!;
+    public Pedido? Pedido { get; set; }
 
-    public virtual Producto IdProductoNavigation { get; set; } = null!;
+    public Producto? Producto { get; set; }
 }

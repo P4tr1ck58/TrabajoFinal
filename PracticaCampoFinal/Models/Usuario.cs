@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace PracticaCampoFinal.Models;
 
-public partial class Usuario
+//
+public class Usuario
 {
-    public int IdUsuario { get; set; }
+    public int Id_Usuario { get; set; }
 
-    public string NameUsuario { get; set; } = null!;
+    public string Name_Usuario { get; set; } = string.Empty;
 
-    public string ContraUsuario { get; set; } = null!;
+    public string Contra_Usuario { get; set; } = string.Empty;
 }
