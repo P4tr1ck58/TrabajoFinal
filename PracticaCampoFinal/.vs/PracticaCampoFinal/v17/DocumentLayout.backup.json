@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "Controllers\\ClienteControlador.cs",
               "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Controllers\\ClienteControlador.cs",
               "RelativeToolTip": "Controllers\\ClienteControlador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T08:20:41.173Z",
               "EditorCaption": ""
@@ -49,7 +53,7 @@
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
               "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Cliente.cs",
               "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T08:10:19.509Z",
               "EditorCaption": ""
@@ -75,14 +79,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T07:38:12.793Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
