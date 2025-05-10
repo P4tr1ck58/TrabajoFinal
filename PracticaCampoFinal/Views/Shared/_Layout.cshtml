@@ -20,22 +20,34 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        @if (Context.Session.GetString("usuario") == null)
+                        @if (string.IsNullOrEmpty("usuario")) // Si no está autenticado
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Auntenticacion" asp-action="Login">Iniciar sesión</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Auntenticacion" asp-action="Login">Iniciar sesión</a>
                             </li>
                         }
-                        else
+                        else // Si está autenticado
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Auntenticacion" asp-action="Logout">Cerrar sesión (@Context.Session.GetString("usuario"))</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Productos" asp-action="Index">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Pedidos" asp-action="Index">Pedidos</a>
+                            </li>
+                            <li  class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="PedidosDetalles" asp-action="Index">Detalles Pedido</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Auntenticacion" asp-action="Logout">Cerrar sesión</a>
                             </li>
                         }
                     </ul>

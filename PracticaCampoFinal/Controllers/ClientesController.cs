@@ -23,10 +23,18 @@ namespace PracticaCampoFinal.Controllers
             base.OnActionExecuting(context);
         }
 
-        // Lectura de todos los clientes
-        public async Task<IActionResult> Index()
+        // Muestra todos los clientes
+        public IActionResult Index()
         {
-            return View(await _context.Clientes.ToListAsync());
+            var usuario = HttpContext.Session.GetString("usuario");
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Auntenticacion");
+            }
+
+            var clientes = _context.Clientes.ToList();
+            return View(clientes);
         }
 
         public IActionResult Create()

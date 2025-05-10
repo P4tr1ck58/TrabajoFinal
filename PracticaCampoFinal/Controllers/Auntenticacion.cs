@@ -45,5 +45,39 @@ namespace PracticaCampoFinal.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Login");
         }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Register(Usuario model)
+        {
+            if (ModelState.IsValid)
+            {
+                // Validar si el usuario ya existe
+                var existingUser = _context.Usuarios
+                    .FirstOrDefault(u => u.Name_Usuario == model.Name_Usuario);
+
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("Name_Usuario", "El nombre de usuario ya existe.");
+                    return View(model);
+                }
+
+                // Guardar nuevo usuario
+                _context.Usuarios.Add(model);
+                _context.SaveChanges();
+
+                // Iniciar sesión automáticamente (opcional)
+                HttpContext.Session.SetString("usuario", model.Name_Usuario);
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            return View(model);
+        }
     }
 }

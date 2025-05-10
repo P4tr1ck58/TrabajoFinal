@@ -15,12 +15,21 @@ namespace PracticaCampoFinal.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
+            var usuario = HttpContext.Session.GetString("usuario");
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Auntenticacion");
+            }
+
             var detalles = _context.PedidosDetalles
                 .Include(d => d.Pedido)
-                .Include(d => d.Producto);
-            return View(await detalles.ToListAsync());
+                .Include(d => d.Producto)
+                .ToList();
+
+            return View(detalles);
         }
 
         public IActionResult Create()
