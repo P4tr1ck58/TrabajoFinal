@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PracticaCampoFinal.Models.Pedidosdetalle>
+
+<h2>Detalles de Pedidos</h2>
+
+<a asp-action="Create" class="btn btn-primary">Agregar Detalle</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Pedido</th>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Unitario</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id_Pedido</td>
+                <td>@item.Producto.Name_Producto</td>
+                <td>@item.Cantidad_PedidoDetalle</td>
+                <td>@item.PrecioUnit_Pedido</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id_PedidoDetalle">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id_PedidoDetalle">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id_PedidoDetalle">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

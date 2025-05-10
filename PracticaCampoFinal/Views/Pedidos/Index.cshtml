@@ -1,0 +1,31 @@
+﻿@model IEnumerable<PracticaCampoFinal.Models.Pedido>
+
+<h2>Pedidos</h2>
+
+<a asp-action="Create" class="btn btn-primary">Nuevo Pedido</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cliente</th>
+            <th>Fecha</th>
+            <th>Estado</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Cliente?.Name_Cliente</td>
+                <td>@item.Fecha_Pedido.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>@item.Estado_Pedido</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id_Pedido">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id_Pedido">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id_Pedido">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

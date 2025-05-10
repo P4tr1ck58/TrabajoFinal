@@ -1,0 +1,17 @@
+﻿@model PracticaCampoFinal.Models.Producto
+
+<h2>Eliminar Producto</h2>
+
+<h4>¿Estás seguro de que deseas eliminar este producto?</h4>
+<div>
+    <strong>Nombre:</strong> @Model.Name_Producto<br />
+    <strong>Descripción:</strong> @Model.Descripcion_Producto<br />
+    <strong>Cantidad:</strong> @Model.Cantidad_Producto<br />
+    <strong>Precio:</strong> @Model.Precio_Producto
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id_Producto" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PracticaCampoFinal.Models.Cliente>
+
+<h2>Clientes</h2>
+
+<a asp-action="Create" class="btn btn-primary">Nuevo Cliente</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Teléfono</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name_Cliente</td>
+                <td>@item.Ape_Cliente</td>
+                <td>@item.Telefono_Cliente</td>
+                <td>@item.Email_Cliente</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id_Cliente">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id_Cliente">Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id_Cliente">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

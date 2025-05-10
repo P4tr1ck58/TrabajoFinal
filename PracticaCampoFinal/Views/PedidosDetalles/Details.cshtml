@@ -1,0 +1,13 @@
+﻿@model PracticaCampoFinal.Models.Pedidosdetalle
+
+<h2>Detalles del Detalle de Pedido</h2>
+
+<div>
+    <strong>ID:</strong> @Model.Id_PedidoDetalle<br />
+    <strong>Pedido:</strong> @Model.Id_Pedido<br />
+    <strong>Producto:</strong> @Model.Producto?.Name_Producto<br />
+    <strong>Cantidad:</strong> @Model.Cantidad_PedidoDetalle<br />
+    <strong>Precio Unitario:</strong> @Model.PrecioUnit_Pedido
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

@@ -1,0 +1,12 @@
+﻿@model PracticaCampoFinal.Models.Pedido
+
+<h2>Detalles del Pedido</h2>
+
+<div>
+    <strong>ID:</strong> @Model.Id_Pedido<br />
+    <strong>Cliente:</strong> @Model.Cliente?.Name_Cliente<br />
+    <strong>Fecha:</strong> @Model.Fecha_Pedido<br />
+    <strong>Estado:</strong> @Model.Estado_Pedido
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Volver</a>
