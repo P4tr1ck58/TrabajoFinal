@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\wwwroot\\images\\computadora.png",
+      "PackagePath": "staticwebassets\\images\\computadora.png"
+    },
+    {
       "Id": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

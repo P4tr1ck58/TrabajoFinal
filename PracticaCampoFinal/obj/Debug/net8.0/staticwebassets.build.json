@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GCHDTi8roJE3t+gSBRP6954i7cWmjGZ69Gg1TBARsnc=",
+  "Hash": "sjytUvEfTrGUcaUNc249VVvbatEpKYTCcFy9aSetapM=",
   "Source": "PracticaCampoFinal",
   "BasePath": "_content/PracticaCampoFinal",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\wwwroot\\images\\computadora.png",
+      "SourceId": "PracticaCampoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\wwwroot\\",
+      "BasePath": "_content/PracticaCampoFinal",
+      "RelativePath": "images/computadora#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fxi0vuyufa",
+      "Integrity": "07asSUKIAW1A6rziB9qltYQxgCl7gO2MCXl0Cm41zqo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\computadora.png"
     },
     {
       "Identity": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\wwwroot\\js\\site.js",
@@ -1481,6 +1502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/computadora.fxi0vuyufa.png",
+      "AssetFile": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\wwwroot\\images\\computadora.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07asSUKIAW1A6rziB9qltYQxgCl7gO2MCXl0Cm41zqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 17:15:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fxi0vuyufa"
+        },
+        {
+          "Name": "label",
+          "Value": "images/computadora.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-07asSUKIAW1A6rziB9qltYQxgCl7gO2MCXl0Cm41zqo="
+        }
+      ]
+    },
+    {
+      "Route": "images/computadora.png",
+      "AssetFile": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\wwwroot\\images\\computadora.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"07asSUKIAW1A6rziB9qltYQxgCl7gO2MCXl0Cm41zqo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 10 May 2025 17:15:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-07asSUKIAW1A6rziB9qltYQxgCl7gO2MCXl0Cm41zqo="
         }
       ]
     },
