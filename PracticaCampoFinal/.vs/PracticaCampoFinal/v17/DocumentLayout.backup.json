@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\models\\pedidosdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:models\\pedidosdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:views\\pedidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\controllers\\auntenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:controllers\\auntenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|e:\\fundamentos_algoritmia\\trabajofinal\\practicacampofinal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{946E1F58-97C2-4DAE-9AFD-70C2E47373F8}|PracticaCampoFinal.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,66 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pedidosdetalle.cs",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Pedidosdetalle.cs",
-              "RelativeDocumentMoniker": "Models\\Pedidosdetalle.cs",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Pedidosdetalle.cs",
-              "RelativeToolTip": "Models\\Pedidosdetalle.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:29:22.928Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Views\\Pedidos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pedidos\\Create.cshtml",
+              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Views\\Pedidos\\Create.cshtml*",
+              "RelativeToolTip": "Views\\Pedidos\\Create.cshtml*",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T08:14:14.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "Models\\Pedido.cs",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Pedido.cs",
-              "RelativeToolTip": "Models\\Pedido.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
+              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Controllers\\PedidosController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwC8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:28:56.288Z",
+              "WhenOpened": "2025-05-10T08:08:50.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Views\\Clientes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Clientes\\Create.cshtml",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Views\\Clientes\\Create.cshtml",
-              "RelativeToolTip": "Views\\Clientes\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T07:28:37.486Z",
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Models\\Pedido.cs",
+              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Models\\Pedido.cs",
+              "RelativeToolTip": "Models\\Pedido.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:59:54.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Views\\Pedidos\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Pedidos\\Create.cshtml",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Views\\Pedidos\\Create.cshtml",
-              "RelativeToolTip": "Views\\Pedidos\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T07:28:15.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Title": "Auntenticacion.cs",
+              "DocumentMoniker": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Controllers\\Auntenticacion.cs",
+              "RelativeDocumentMoniker": "Controllers\\Auntenticacion.cs",
+              "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Controllers\\Auntenticacion.cs",
+              "RelativeToolTip": "Controllers\\Auntenticacion.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T07:27:17.715Z",
+              "WhenOpened": "2025-05-10T07:20:47.827Z",
               "EditorCaption": ""
             },
             {
@@ -113,7 +96,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "E:\\Fundamentos_Algoritmia\\TrabajoFinal\\PracticaCampoFinal\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAADwvy4AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-10T07:01:21.364Z",
               "EditorCaption": ""
