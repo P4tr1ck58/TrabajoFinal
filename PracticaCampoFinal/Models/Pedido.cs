@@ -19,9 +19,9 @@ public class Pedido
     public DateTime Fecha_Pedido { get; set; } = DateTime.Now;
 
     [StringLength(20)] // Anotacion en C# equivalente al varchar(50) en la base de datos
-    public string? Estado_Pedido { get; set; }
+    public string Estado_Pedido { get; set; }
 
     
 
-    public ICollection<Pedidosdetalle>? Pedidosdetalles { get; set; }
+    public ICollection<Pedidosdetalle>? Pedidosdetalles { get; set; } = new List<Pedidosdetalle>();
 }

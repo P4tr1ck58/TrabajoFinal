@@ -40,11 +40,12 @@ namespace PracticaCampoFinal.Controllers
         {
             if (ModelState.IsValid)
             {
+                pedido.Fecha_Pedido = DateTime.Now;
                 _context.Add(pedido);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Id_Cliente"] = new SelectList(_context.Clientes, "Id_Cliente", "Name_Cliente", pedido.Id_Cliente);
+            ViewData["Id_Cliente"] = new SelectList(_context.Clientes, "Id_Cliente", "Name_Cliente");
             return View(pedido);
         }
 

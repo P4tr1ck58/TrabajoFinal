@@ -24,8 +24,8 @@ namespace PracticaCampoFinal.Data
 
             modelBuilder.Entity<Pedidosdetalle>()
                 .HasOne(d => d.Pedido)
-                .WithMany()
-                .HasForeignKey(d => d.Id_Pedido);
+                .WithMany(p => p.Pedidosdetalles)
+                .HasForeignKey(d => d.Id_Pedido); ;
 
             modelBuilder.Entity<Pedidosdetalle>()
                 .HasOne(d => d.Producto)
