@@ -1,0 +1,17 @@
+﻿@model PracticaCampoFinal.Models.Cliente
+
+<h2>Eliminar Cliente</h2>
+
+<h4>¿Estás seguro de que deseas eliminar este cliente?</h4>
+<div>
+    <strong>Nombre:</strong> @Model.Name_Cliente<br />
+    <strong>Apellido:</strong> @Model.Ape_Cliente<br />
+    <strong>Teléfono:</strong> @Model.Telefono_Cliente<br />
+    <strong>Email:</strong> @Model.Email_Cliente
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id_Cliente" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

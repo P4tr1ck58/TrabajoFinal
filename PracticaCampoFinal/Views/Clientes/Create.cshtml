@@ -1,0 +1,27 @@
+﻿@model PracticaCampoFinal.Models.Cliente
+
+<h2>Crear Cliente</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Name_Cliente"></label>
+        <input asp-for="Name_Cliente" class="form-control" />
+        <span asp-validation-for="Name_Cliente" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Ape_Cliente"></label>
+        <input asp-for="Ape_Cliente" class="form-control" />
+        <span asp-validation-for="Ape_Cliente" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Telefono_Cliente"></label>
+        <input asp-for="Telefono_Cliente" class="form-control" />
+        <span asp-validation-for="Telefono_Cliente" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email_Cliente"></label>
+        <input asp-for="Email_Cliente" class="form-control" />
+        <span asp-validation-for="Email_Cliente" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Guardar</button>
+</form>

@@ -1,0 +1,28 @@
+﻿@model PracticaCampoFinal.Models.Producto
+
+<h2>Editar Producto</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id_Producto" />
+    <div class="form-group">
+        <label asp-for="Name_Producto"></label>
+        <input asp-for="Name_Producto" class="form-control" />
+        <span asp-validation-for="Name_Producto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Descripcion_Producto"></label>
+        <textarea asp-for="Descripcion_Producto" class="form-control"></textarea>
+        <span asp-validation-for="Descripcion_Producto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cantidad_Producto"></label>
+        <input asp-for="Cantidad_Producto" class="form-control" />
+        <span asp-validation-for="Cantidad_Producto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Precio_Producto"></label>
+        <input asp-for="Precio_Producto" class="form-control" />
+        <span asp-validation-for="Precio_Producto" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>

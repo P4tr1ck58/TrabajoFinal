@@ -1,0 +1,27 @@
+﻿@model PracticaCampoFinal.Models.Pedidosdetalle
+
+<h2>Agregar Detalle de Pedido</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Id_Pedido"></label>
+        <select asp-for="Id_Pedido" class="form-control" asp-items="ViewBag.Id_Pedido"></select>
+        <span asp-validation-for="Id_Pedido" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Id_Producto"></label>
+        <select asp-for="Id_Producto" class="form-control" asp-items="ViewBag.Id_Producto"></select>
+        <span asp-validation-for="Id_Producto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cantidad_PedidoDetalle"></label>
+        <input asp-for="Cantidad_PedidoDetalle" class="form-control" />
+        <span asp-validation-for="Cantidad_PedidoDetalle" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PrecioUnit_Pedido"></label>
+        <input asp-for="PrecioUnit_Pedido" class="form-control" />
+        <span asp-validation-for="PrecioUnit_Pedido" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Guardar</button>
+</form>

@@ -1,0 +1,8 @@
+Instalen esto en su visual una vez clonado el repositorio
+1° ingresan al proyecto
+2° Le dan click derecho al nombre del proyecto(en el explorador de soluciones)
+3° buscar Nuget y ingresar para instalar paquetes
+4° instalan: Pomelo.EntityFrameworkCore.MySql
+
+Descargar Mysql y Mysql Workbench
+Son necesarios para que puedan recrear la base de datos en sus computadoras

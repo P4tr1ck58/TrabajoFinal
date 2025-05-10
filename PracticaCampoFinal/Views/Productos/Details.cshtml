@@ -1,0 +1,13 @@
+﻿@model PracticaCampoFinal.Models.Producto
+
+<h2>Detalles del Producto</h2>
+
+<div>
+    <strong>ID:</strong> @Model.Id_Producto<br />
+    <strong>Nombre:</strong> @Model.Name_Producto<br />
+    <strong>Descripción:</strong> @Model.Descripcion_Producto<br />
+    <strong>Cantidad:</strong> @Model.Cantidad_Producto<br />
+    <strong>Precio:</strong> @Model.Precio_Producto
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

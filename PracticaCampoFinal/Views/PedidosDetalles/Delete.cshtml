@@ -1,0 +1,17 @@
+﻿@model PracticaCampoFinal.Models.Pedidosdetalle
+
+<h2>Eliminar Detalle de Pedido</h2>
+
+<h4>¿Estás seguro de que deseas eliminar este detalle?</h4>
+<div>
+    <strong>Pedido:</strong> @Model.Id_Pedido<br />
+    <strong>Producto:</strong> @Model.Producto?.Name_Producto<br />
+    <strong>Cantidad:</strong> @Model.Cantidad_PedidoDetalle<br />
+    <strong>Precio Unitario:</strong> @Model.PrecioUnit_Pedido
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="Id_PedidoDetalle" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
